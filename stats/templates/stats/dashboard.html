@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+<h1>Dashboard</h1>
+<p>Bem vindo ao Stats Chess.
+  Você pode editar seu perfil <a href="{% url 'edit' %}">aqui</a> ou
+  <a href="{% url 'password_change' %}">mude sua senha</a>
+</p>
+{% endblock %}
